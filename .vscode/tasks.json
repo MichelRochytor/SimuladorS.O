@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "KosmosUI: Fast Run",
+      "type": "shell",
+      "command": "kosmos run",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"],
+      "presentation": { "echo": true, "reveal": "always", "focus": true, "panel": "shared", "clear": true }
+    },
+    {
+      "label": "KosmosUI: Debug Mode",
+      "type": "shell",
+      "command": "kosmos debug",
+      "problemMatcher": ["$gcc"],
+      "presentation": { "echo": true, "reveal": "always", "focus": true, "panel": "shared", "clear": true }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# --- Diretórios de Saída (Build) ---
+# Ignora a pasta output onde ficam os executáveis e o AppImage
+output/
+**/output/
+
+# --- Arquivos Intermediários de Compilação ---
+*.o
+*.obj
+*.res
+*.map
+*.exe
+*.AppImage
+
+tools/wine-portable.tar.xz
+tools/runtime-x86_64
+tools/appimagetool

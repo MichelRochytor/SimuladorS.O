@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.rmd": "markdown",
+        "poppack.h": "c",
+        "auxinterface.h": "c",
+        "shlwapi.h": "c",
+        "kosmos.h": "c"
+    },
+    "git.ignoreLimitWarning": true
+}

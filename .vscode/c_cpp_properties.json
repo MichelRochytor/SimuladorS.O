@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": ["${workspaceFolder}/**", "${workspaceFolder}/tools/kosmos/**"],
+      "defines": ["_WIN32_WINNT=0x0A00", "WINVER=0x0A00", "UNICODE", "_UNICODE", "_WIN32"],
+      "compilerPath": "gcc", "cStandard": "c17", "cppStandard": "gnu++17", "intelliSenseMode": "windows-gcc-x64"
+    },
+    {
+      "name": "Linux",
+      "includePath": ["${workspaceFolder}/**", "/usr/x86_64-w64-mingw32/include", "/usr/share/mingw-w64/include", "${workspaceFolder}/tools/kosmos/**"],
+      "defines": ["_WIN32_WINNT=0x0A00", "WINVER=0x0A00", "UNICODE", "_UNICODE", "__linux__", "_WIN32"],
+      "compilerPath": "/usr/bin/x86_64-w64-mingw32-gcc", "cStandard": "c17", "cppStandard": "gnu++17", "intelliSenseMode": "linux-gcc-x64",
+      "browse": { "path": ["/usr/x86_64-w64-mingw32/include", "${workspaceFolder}"], "limitSymbolsToIncludedHeaders": true }
+    }
+  ],
+  "version": 4
+}
